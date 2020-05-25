@@ -4,9 +4,14 @@
 
 Fantasy Football is an application for managing the creation of conferences, divisions, teams, players. You can keep track of scores week to week based off player's performances. If you do well enough you will head into the playoffs, for a change to win it all. The application is a way to keep the football fever year round instead of just during the regular season.
 
-## Goals
+## Features of the application
 
-In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vuex design and Vue-Router to manage the dom. On the server side students will use Express with Node.js for their server, as well as implementing express-sessions for authentication, mongoose as an ORM and MongoDB as their database.
+1. Create the 2 main conferences (also referred to AFC and NFC)
+2. Create multiple divisions to play regular season games
+3. Create multiple teams (up to 64) that will be placed in divisions to square off against each other during the regular season
+4. Create players (positions include Quarterback(QB), Wide Receiver(WR), Running Back(RB), Tight End(TE), Athlete / All around player(ATH))
+5. Draft players onto your team (Future Implementation in Application)
+6. The Team you create will be your defense for the season
 
 ## The Buisness Logic
 
