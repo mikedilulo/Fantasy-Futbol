@@ -4,7 +4,7 @@
 
 Fantasy Football is an application for managing the creation of conferences, divisions, teams, players. You can keep track of scores week to week based off player's performances. If you do well enough you will head into the playoffs, for a change to win it all. The application is a way to keep the football fever year round instead of just during the regular season.
 
-## Features of the application
+## Some Application Features
 
 1. Create the 2 main conferences (also referred to AFC and NFC)
 2. Create multiple divisions to play regular season games
