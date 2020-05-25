@@ -1,7 +1,8 @@
-# Kanban
-<img class="img-responsive" src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+# Fantasy Football
 
-A Kanban board is a method for managing the creation of products with an emphasis on continual delivery while not overburdening the development team. Like Scrum, Kanban is a process designed to help teams work together more effectively. This application will provide users with a digital Kanban board, where they can manage several lists of tasks for each board.
+<img class="img-responsive" src="https://images.unsplash.com/photo-1475171272919-d65b555848d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+
+Fantasy Football is an application for managing the creation of conferences, divisions, teams, players. You can keep track of scores week to week based off player's performances. If you do well enough you will head into the playoffs, for a change to win it all. The application is a way to keep the football fever year round instead of just during the regular season.
 
 ## Goals
 
@@ -13,17 +14,17 @@ Kanban is a simple enough application. Users have the request to be able to crea
 
 A board manages several lists. Once created lists can not be transfered between boards but they can be removed. If a list is removed go ahead and remove all of the tasks and comments on the list as well to avoid orphan data.
 
-A task should be able to move between any of the lists on whatever board it was created. Tasks can be removed individually. 
+A task should be able to move between any of the lists on whatever board it was created. Tasks can be removed individually.
 
-Comments always belong to a task and will transfer with the task when moved. This should not require any extra efforts on your part. If a comment is created only the user who created the comment should be able to edit/remove it unless of course the task, list, or board is removed. 
+Comments always belong to a task and will transfer with the task when moved. This should not require any extra efforts on your part. If a comment is created only the user who created the comment should be able to edit/remove it unless of course the task, list, or board is removed.
 
 ## The Setup
 
-Perhaps one of the most important skills to obtain on your road to becoming a Software Engineer is the ability to work on large projects. Especially when those larger projects have a code scaffolding that has been set up by someone other than yourself. It is important to be able to jump into the mix of a development teams build and disect what everything is doing. 
+Perhaps one of the most important skills to obtain on your road to becoming a Software Engineer is the ability to work on large projects. Especially when those larger projects have a code scaffolding that has been set up by someone other than yourself. It is important to be able to jump into the mix of a development teams build and disect what everything is doing.
 
 As we move into these larger projects we are also going to start enforcing stricter guidelines to help teach the concepts of Object Oriented Programming.
 
-You will notice that there are two main directories in this project. One for the frontend and the other is for the server. Having these distinct directories helps create a separation of concerns. To help cement this even further you may want to open up two instances of vscode, one for each directory. 
+You will notice that there are two main directories in this project. One for the frontend and the other is for the server. Having these distinct directories helps create a separation of concerns. To help cement this even further you may want to open up two instances of vscode, one for each directory.
 
 You will need to launch both the client and the server independently. Make sure you start up and run both projects(front end and back end).
 
@@ -31,20 +32,20 @@ The goal of each of these projects is to be decoupled from each other. Meaning y
 
 ![n-tier](http://www.amzi.com/articles/youbet_architecture.gif)
 
-
 ### Step 1
 
-It will probably be helpful to start on the backend of this application first. Utilize a tool like postman to start creating and editing your boards which has been setup for you already. Then move onto the other collections. 
+It will probably be helpful to start on the backend of this application first. Utilize a tool like postman to start creating and editing your boards which has been setup for you already. Then move onto the other collections.
 
-On the server you will utilize a node-mongodb setup with express sessions and a mongoose ORM. The server side code needs to be setup similar to your previous projects*. You will need to create a new free database on atlas for this assignment. 
+On the server you will utilize a node-mongodb setup with express sessions and a mongoose ORM. The server side code needs to be setup similar to your previous projects\*. You will need to create a new free database on atlas for this assignment.
 
 The active user is always stored on the server side via sessions so you should be able to enforce some of the security concerns using something like `req.userInfo.email`
 
 For now all users can see only their boards and anyone can create boards, lists, tasks, or comments but only allow them to do so on their own boards. Once we have all of the features working we will move to an invite only board setup that will have boards belonging to a primary user and having contributors
 
-*\* portions of this have already been done for you*
+_\* portions of this have already been done for you_
 
 ### Step 2
+
 The Web client will be a vue application. The project has already been initialized and some of the views/components established. Login/Register should all work for example, however it is up to you figure out what to do from there.
 
 ## Requirements
@@ -70,12 +71,10 @@ The Web client will be a vue application. The project has already been initializ
 - Only authenticated users currently logged in can access the api
 
 ### Bonus Ideas:
+
 - Add to the front and backend the ability to have collaborators on boards
 - Add Sockets to the project so any collaborator gets instant feedback when users modify a board
 - Comment authors username is next to the comment
-
-
-
 
 # Auth0 Server Setup
 
@@ -142,7 +141,7 @@ import { auth0provider } from "@bcw/auth0-server";
 auth0provider.configure({
   domain: process.env.AUTH_DOMAIN,
   clientId: process.env.AUTH_CLIENT_ID,
-  audience: process.env.AUTH_AUDIENCE
+  audience: process.env.AUTH_AUDIENCE,
 });
 
 // validates a request has a Bearer auth token in req.headers.authentication
@@ -180,7 +179,7 @@ app.use((error, req, res, next) => {
   }
   error = error || {
     status: 400,
-    message: "An unexpected error occured please try again later"
+    message: "An unexpected error occured please try again later",
   };
   res.status(error.status).send({ ...error, url: req.url });
 });
