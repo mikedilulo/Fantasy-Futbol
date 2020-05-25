@@ -1,6 +1,6 @@
 # Fantasy Football
 
-<img class="img-responsive" src="https://images.unsplash.com/photo-1475171272919-d65b555848d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+<img class="img-responsive" src="https://images.unsplash.com/photo-1475171272919-d65b555848d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
 
 Fantasy Football is an application for managing the creation of conferences, divisions, teams, players. You can keep track of scores week to week based off player's performances. If you do well enough you will head into the playoffs, for a change to win it all. The application is a way to keep the football fever year round instead of just during the regular season.
 
