@@ -4,6 +4,7 @@
     <p
       class="home-title"
     >Log in to start your fantasy futbol adventure, or take a look at the app demo to see how it works.</p>
+    <p class="home-title">Created by Mike Di' Lulo | All rights reserved</p>
   </div>
 </template>
 
@@ -27,7 +28,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 975px;
+  height: 100%;
   padding-left: 0px;
   margin-right: 0px;
 }
