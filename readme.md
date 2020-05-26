@@ -6,12 +6,12 @@ Fantasy Futbol is an application for managing the creation of leagues, divisions
 
 ## Some Application Features
 
-1. Create the 2 main conferences (also referred to AFC and NFC)
-2. Create multiple divisions to play regular season games
-3. Create multiple teams (up to 64) that will be placed in divisions to square off against each other during the regular season
-4. Create players (positions include Quarterback(QB), Wide Receiver(WR), Running Back(RB), Tight End(TE), Athlete / All around player(ATH))
-5. Draft players onto your team (Future Implementation in Application)
-6. The Team you create will be your defense for the season
+1. Create multiple leagues, if need be
+2. Create multiple divisions to play regular season games. You can simulate games and square off against friends and family.
+3. Create multiple teams (up to 128) with friends that will be placed in divisions to square off against each other during the regular season
+   <!-- 4. Create players (positions include Quarterback(QB), Wide Receiver(WR), Running Back(RB), Tight End(TE), Athlete / All around player(ATH)) -->
+   <!-- 4. Draft players onto your team (Future Implementation in Application) -->
+4. The team you will create will be your defense for the year, see how it stacks up against other players.
 
 ## The Buisness Logic
 
