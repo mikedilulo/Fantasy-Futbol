@@ -2,7 +2,7 @@
 
 <img class="img-responsive" src="https://images.unsplash.com/photo-1486286701208-1d58e9338013?ixlib=rb-1.2.1&auto=format&fit=crop&w=920&q=80">
 
-Fantasy Football is an application for managing the creation of conferences, divisions, teams, players. You can keep track of scores week to week based off player's performances. If you do well enough you will head into the playoffs, for a change to win it all. The application is a way to keep the football fever year round instead of just during the regular season.
+Fantasy Futbol is an application for managing the creation of leagues, divisions, teams, and even players. This application is a Do it yourself app, create your own leagues, simulate your own games, simulate your own playoff games. This is the perfect application to keep the soccer fever alive during the year, and not just during the season.
 
 ## Some Application Features
 
