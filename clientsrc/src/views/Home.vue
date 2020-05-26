@@ -26,7 +26,7 @@ export default {
   background: url("https://images.unsplash.com/photo-1521731978332-9e9e714bdd20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 1901px;
+  width: 100%;
   height: 975px;
   padding-left: 0px;
   margin-right: 0px;
