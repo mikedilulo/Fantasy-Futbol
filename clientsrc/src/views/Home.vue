@@ -1,7 +1,9 @@
 <template>
   <div class="home background-image">
     <h1 class="home-title">Fantasy Futbol</h1>
-    <p>Log in to start your fantasy futbol adventure, or take a look at the app demo to see how it works.</p>
+    <p
+      class="home-title"
+    >Log in to start your fantasy futbol adventure, or take a look at the app demo to see how it works.</p>
   </div>
 </template>
 
