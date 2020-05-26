@@ -38,6 +38,6 @@ export default {
 }
 
 .rights-paragraph {
-  margin-top: 50px;
+  margin-top: 473px;
 }
 </style>
