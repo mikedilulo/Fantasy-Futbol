@@ -4,7 +4,7 @@
     <p
       class="home-title"
     >Log in to start your fantasy futbol adventure, or take a look at the app demo to see how it works.</p>
-    <p class="home-title">Created by Mike Di' Lulo | All rights reserved</p>
+    <p class="home-title rights-paragraph">Created by Mike Di' Lulo | All rights reserved</p>
   </div>
 </template>
 
@@ -35,5 +35,9 @@ export default {
 
 .home-title {
   color: white;
+}
+
+.rights-paragraph {
+  margin-top: 50px;
 }
 </style>
