@@ -9,9 +9,10 @@ Fantasy Futbol is an application for managing the creation of leagues, divisions
 1. Create multiple leagues, if need be
 2. Create multiple divisions to play regular season games. You can simulate games and square off against friends and family.
 3. Create multiple teams (up to 128) with friends that will be placed in divisions to square off against each other during the regular season
-   <!-- 4. Create players (positions include Quarterback(QB), Wide Receiver(WR), Running Back(RB), Tight End(TE), Athlete / All around player(ATH)) -->
 4. The team you will create will be your defense for the year, see how it stacks up against other players.
 5. Create players that can be drafted to your team or other teams and follow them throughout the year. Also choose from a random pool of players based off how many teams you create
+6. Conduct a draft manually or simulate them for a faster better experience
+7. Create players with positions for Goalkeeper(GK), Right Fullback(RFB), Left Fullback(LFB), Center Back(CB), Sweeper(SW), Defending Midfielder(DM), Right Midfield(RM), Left Midfield(LM), Central Midfield(CM), Striker(ST), PlayMaker(PM)
 
 ## The Buisness Logic
 
