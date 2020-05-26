@@ -2,7 +2,7 @@
   <div class="home background-image">
     <h1 class="home-title">Fantasy Futbol</h1>
     <p
-      class="home-title"
+      class="home-title mt-3"
     >Log in to start your fantasy futbol adventure, or take a look at the app demo to see how it works.</p>
     <p class="home-title rights-paragraph">Created by Mike Di' Lulo | All rights reserved</p>
   </div>
@@ -38,6 +38,6 @@ export default {
 }
 
 .rights-paragraph {
-  margin-top: 473px;
+  margin-top: 465px;
 }
 </style>
