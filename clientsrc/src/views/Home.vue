@@ -1,6 +1,6 @@
 <template>
   <div class="home background-image">
-    <h1>Football Leaderboards</h1>
+    <h1 class="home-title">Fantasy Futbol</h1>
   </div>
 </template>
 
