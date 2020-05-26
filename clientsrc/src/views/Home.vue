@@ -28,4 +28,8 @@ export default {
   padding-left: 0px;
   margin-right: 0px;
 }
+
+.home-title {
+  color: white;
+}
 </style>
