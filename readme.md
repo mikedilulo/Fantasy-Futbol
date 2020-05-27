@@ -22,7 +22,7 @@ One person will be responsible for creating the league, and alongside the member
 
 Players have the abiity to be traded, and while you can only manage your own team, over time you can see your rankings, and how they stack up against other players.
 
-Comments always belong to a task and will transfer with the task when moved. This should not require any extra efforts on your part. If a comment is created only the user who created the comment should be able to edit/remove it unless of course the task, list, or board is removed.
+If you do decide to exit the league, your team will be removed along with its drafed players and stats. This will allow those players to go on the free agency list and are up for grabs. Always continue to make your teams better and bring on that dynasty you always wanted.
 
 ## The Setup
 
