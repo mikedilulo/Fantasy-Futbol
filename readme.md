@@ -14,9 +14,9 @@ Fantasy Futbol is an application for managing the creation of leagues, divisions
 6. Conduct a draft manually or simulate them for a faster better experience
 7. Create players with positions for Goalkeeper(GK), Right Fullback(RFB), Left Fullback(LFB), Center Back(CB), Sweeper(SW), Defending Midfielder(DM), Right Midfield(RM), Left Midfield(LM), Central Midfield(CM), Striker(ST), PlayMaker(PM)
 
-## The Buisness Logic
+## Fantasy Futbol Notes
 
-Kanban is a simple enough application. Users have the request to be able to create and manage boards, lists, and tasks. Tasks should also have the ability to add notes or comments. This setup will take a while to get all ironed out but we have some time to work on it so don't fret.
+Fantasy Futbol is a simple enough application. Users can create their own leagues, manage their own teams and players, while taking them to the top for a playoff system to win it a. Only the individuals who create the laague, teams and players will have the ability to remove them.
 
 A board manages several lists. Once created lists can not be transfered between boards but they can be removed. If a list is removed go ahead and remove all of the tasks and comments on the list as well to avoid orphan data.
 
