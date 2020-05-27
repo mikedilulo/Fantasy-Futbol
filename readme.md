@@ -16,7 +16,7 @@ Fantasy Futbol is an application for managing the creation of leagues, divisions
 
 ## Fantasy Futbol Notes
 
-Fantasy Futbol is a simple enough application. Users can create their own leagues, manage their own teams and players, while taking them to the top for a playoff system to win it a. Only the individuals who create the laague, teams and players will have the ability to remove them.
+Fantasy Futbol is a simple enough application. Users can create their own leagues, manage their own teams and players, while taking them to the top for a playoff system to win it a. Only the individuals who create the laague, teams and players will have the abiity to only remove themsef. This will allow you to keep your data if somebody drops from the league.
 
 A board manages several lists. Once created lists can not be transfered between boards but they can be removed. If a list is removed go ahead and remove all of the tasks and comments on the list as well to avoid orphan data.
 
