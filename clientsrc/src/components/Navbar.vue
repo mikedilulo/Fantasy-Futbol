@@ -23,6 +23,9 @@
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Top Rankings</router-link>
         </li>
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
+          <router-link :to="{ name: 'home' }" class="nav-link">Contact Us</router-link>
+        </li>
         <li
           class="nav-item"
           v-if="$auth.isAuthenticated"
