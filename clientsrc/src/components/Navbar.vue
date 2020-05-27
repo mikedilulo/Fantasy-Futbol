@@ -24,6 +24,9 @@
           <router-link :to="{ name: 'home' }" class="nav-link">Player Stats</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
+          <router-link :to="{ name: 'home' }" class="nav-link">Injured Reserve(IR)</router-link>
+        </li>
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">App Demo</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
