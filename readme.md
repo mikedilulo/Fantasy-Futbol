@@ -20,7 +20,7 @@ Fantasy Futbol is a simple enough application. Users can create their own league
 
 One person will be responsible for creating the league, and alongside the members who are in the group, will manage their league as they race to the top. Conducting trades, subbing for players if one is hurt, etc.
 
-A task should be able to move between any of the lists on whatever board it was created. Tasks can be removed individually.
+Players have the abiity to be traded, and while you can only manage your own team, over time you can see your rankings, and how they stack up against other players.
 
 Comments always belong to a task and will transfer with the task when moved. This should not require any extra efforts on your part. If a comment is created only the user who created the comment should be able to edit/remove it unless of course the task, list, or board is removed.
 
