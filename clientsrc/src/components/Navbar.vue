@@ -26,7 +26,7 @@
         <li class="nav-item ml-3" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Injured Reserve(IR)</router-link>
         </li>
-        <li class="nav-item" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item ml-3" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Team News</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
