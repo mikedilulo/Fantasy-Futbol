@@ -78,4 +78,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.nav-item:hover {
+  background-color: #28d7e7;
+}
+</style>
