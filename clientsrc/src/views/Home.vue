@@ -30,7 +30,7 @@ export default {
   width: 100%;
   height: 100%;
   padding-left: 0px;
-  margin-right: 0px;
+  /* margin-right: 0px; */
 }
 
 .home-title {
