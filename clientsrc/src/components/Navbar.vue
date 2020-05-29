@@ -81,5 +81,6 @@ export default {
 <style>
 .nav-item:hover {
   background-color: #28d7e7;
+  border-radius: 10px;
 }
 </style>
