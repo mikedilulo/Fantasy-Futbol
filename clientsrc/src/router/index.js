@@ -40,5 +40,9 @@ export default new Router({
       path: "/player-stats",
       name: "player-stats",
     },
+    {
+      path: "/injured-reserve",
+      name: "injured-reserve",
+    },
   ],
 });
