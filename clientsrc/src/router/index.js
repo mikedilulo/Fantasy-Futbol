@@ -49,15 +49,15 @@ export default new Router({
       name: "team-news",
     },
     {
-      path: "player-news",
+      path: "/player-news",
       name: "player-news",
     },
     {
-      path: "fantasy-futbol-demo",
+      path: "/fantasy-futbol-demo",
       name: "app-demo",
     },
     {
-      path: "contact",
+      path: "/contact",
       name: "contact",
     },
   ],
