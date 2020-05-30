@@ -11,6 +11,7 @@ import { authGuard } from "@bcwdev/auth0-vue";
 Vue.use(Router);
 
 export default new Router({
+  //TODO Clean up Routes already given in template
   routes: [
     {
       path: "/",
