@@ -52,5 +52,9 @@ export default new Router({
       path: "player-news",
       name: "player-news",
     },
+    {
+      path: "fantasy-futbol-demo",
+      name: "app-demo",
+    },
   ],
 });
