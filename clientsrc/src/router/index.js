@@ -33,8 +33,8 @@ export default new Router({
       redirect: "/",
     },
     {
-      path: "/rankings",
-      name: "rankings",
+      path: "/top-rankings",
+      name: "top-rankings",
     },
   ],
 });
