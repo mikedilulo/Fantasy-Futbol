@@ -48,5 +48,9 @@ export default new Router({
       path: "/team-news",
       name: "team-news",
     },
+    {
+      path: "player-news",
+      name: "player-news",
+    },
   ],
 });
