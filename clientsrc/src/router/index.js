@@ -44,5 +44,9 @@ export default new Router({
       path: "/injured-reserve",
       name: "injured-reserve",
     },
+    {
+      path: "/team-news",
+      name: "team-news",
+    },
   ],
 });
