@@ -36,5 +36,9 @@ export default new Router({
       path: "/top-rankings",
       name: "top-rankings",
     },
+    {
+      path: "/player-stats",
+      name: "player-stats",
+    },
   ],
 });
