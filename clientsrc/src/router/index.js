@@ -32,5 +32,9 @@ export default new Router({
       path: "*",
       redirect: "/",
     },
+    {
+      path: "/rankings",
+      name: "rankings",
+    },
   ],
 });
