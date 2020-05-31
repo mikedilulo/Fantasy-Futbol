@@ -43,6 +43,10 @@ export default new Router({
       name: "player-stats",
     },
     {
+      path: "/player-stats/:playerId",
+      name: "player",
+    },
+    {
       path: "/injured-reserve",
       name: "injured-reserve",
     },
