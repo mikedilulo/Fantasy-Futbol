@@ -36,6 +36,7 @@ export default new Router({
       redirect: "/",
     },
     //TODO Need to import component and link path to link when clicked
+    //TODO Need to create and import components for each specified area
     {
       path: "/top-rankings",
       name: "top-rankings",
