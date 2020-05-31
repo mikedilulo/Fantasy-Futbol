@@ -35,6 +35,7 @@ export default new Router({
       path: "*",
       redirect: "/",
     },
+    //TODO Need to import component and link path to link when clicked
     {
       path: "/top-rankings",
       name: "top-rankings",
