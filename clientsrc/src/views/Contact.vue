@@ -1,9 +1,13 @@
 <template>
-  <div class="contact"></div>
+  <div class="contact">
+    <h1>This is the contact Page</h1>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "contact"
+};
 </script>
 
 <style>
