@@ -51,6 +51,10 @@ export default new Router({
       name: "injured-reserve",
     },
     {
+      path: "/injured-reserve/:playerId",
+      name: "injure-player",
+    },
+    {
       path: "/team-news",
       name: "team-news",
     },
