@@ -37,7 +37,6 @@ export default new Router({
       path: "/top-rankings",
       name: "top-rankings",
     },
-    //TODO Need :id route for single player stats, for IR per player, for specific team news, for specific player news
     {
       path: "/player-stats",
       name: "player-stats",
