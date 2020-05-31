@@ -6,6 +6,8 @@ import Home from "../views/Home.vue";
 import Boards from "../views/Boards.vue";
 // @ts-ignore
 import Board from "../views/Board.vue";
+// @ts-ignore
+import Contact from "../views/Contact.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
@@ -75,7 +77,8 @@ export default new Router({
     },
     {
       path: "/contact",
-      name: "contact",
+      name: "contact-us",
+      component: Contact,
     },
   ],
 });
