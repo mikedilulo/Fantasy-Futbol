@@ -67,6 +67,10 @@ export default new Router({
       name: "player-news",
     },
     {
+      path: "/player-news/:playerId",
+      name: "single-player-news",
+    },
+    {
       path: "/fantasy-futbol-demo",
       name: "app-demo",
     },
