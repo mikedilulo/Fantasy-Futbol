@@ -59,6 +59,10 @@ export default new Router({
       name: "team-news",
     },
     {
+      path: "/team-news/:teamId",
+      name: "single-team-news",
+    },
+    {
       path: "/player-news",
       name: "player-news",
     },
