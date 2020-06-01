@@ -8,6 +8,8 @@ import Boards from "../views/Boards.vue";
 import Board from "../views/Board.vue";
 // @ts-ignore
 import Contact from "../views/Contact.vue";
+// @ts-ignore
+import AppDemo from "../views/Demo.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
