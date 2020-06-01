@@ -33,7 +33,7 @@
           <router-link :to="{ name: 'home' }" class="nav-link">Player News</router-link>
         </li>
         <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
-          <router-link :to="{ name: 'home' }" class="nav-link">App Demo</router-link>
+          <router-link :to="{ name: 'application-demo' }" class="nav-link">App Demo</router-link>
         </li>
         <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'contact-us' }" class="nav-link">Contact Us</router-link>
