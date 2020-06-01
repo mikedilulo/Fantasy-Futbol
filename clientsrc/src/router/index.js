@@ -81,6 +81,7 @@ export default new Router({
     {
       path: "/fantasy-futbol-demo",
       name: "app-demo",
+      component: AppDemo,
     },
     {
       path: "/contact",
