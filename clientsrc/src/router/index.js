@@ -79,7 +79,6 @@ export default new Router({
       path: "/player-news/:playerId",
       name: "single-player-news",
     },
-    //TODO Need to import component and link path to link when clicked
     {
       path: "/fantasy-futbol-demo",
       name: "app-demo",
