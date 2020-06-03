@@ -1,5 +1,7 @@
 <template>
-  <div class="player-news"></div>
+  <div class="player-news">
+    <h1>This is the Player News Page</h1>
+  </div>
 </template>
 
 <script>
