@@ -76,11 +76,11 @@ export default new Router({
     {
       path: "/player-news",
       name: "player-news",
+      component: PlayerNews,
     },
     {
       path: "/player-news/:playerId",
       name: "single-player-news",
-      component: PlayerNews,
     },
     {
       path: "/fantasy-futbol-demo",
