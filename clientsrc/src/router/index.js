@@ -10,6 +10,8 @@ import Board from "../views/Board.vue";
 import Contact from "../views/Contact.vue";
 // @ts-ignore
 import AppDemo from "../views/Demo.vue";
+// @ts-ignore
+import PlayerNews from "../views/PlayerNews.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
