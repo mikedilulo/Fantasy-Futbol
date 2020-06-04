@@ -71,6 +71,7 @@ export default new Router({
     {
       path: "/team-news/:teamId",
       name: "single-team-news",
+      component: TeamNews,
     },
     //TODO Need to import component and link path to link when clicked
     {
