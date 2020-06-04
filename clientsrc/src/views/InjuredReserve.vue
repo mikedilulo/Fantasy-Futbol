@@ -1,5 +1,7 @@
 <template>
-  <div class="injured-reserve"></div>
+  <div class="injured-reserve">
+    <h1>This is the Athlete Injured Reserve Page</h1>
+  </div>
 </template>
 
 <script>
