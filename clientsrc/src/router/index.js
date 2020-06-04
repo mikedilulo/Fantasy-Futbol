@@ -12,6 +12,7 @@ import Contact from "../views/Contact.vue";
 import AppDemo from "../views/Demo.vue";
 // @ts-ignore
 import PlayerNews from "../views/PlayerNews.vue";
+import TeamNews from "../views/TeamNews.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
