@@ -14,6 +14,7 @@ import AppDemo from "../views/Demo.vue";
 import PlayerNews from "../views/PlayerNews.vue";
 // @ts-ignore
 import TeamNews from "../views/TeamNews.vue";
+import InjuredReserve from "../views/InjuredReserve.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
