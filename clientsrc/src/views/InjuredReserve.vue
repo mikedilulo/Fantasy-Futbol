@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div class="injured-reserve"></div>
+</template>
 
 <script>
 export default {};
