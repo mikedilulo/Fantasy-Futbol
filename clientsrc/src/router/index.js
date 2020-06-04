@@ -60,6 +60,7 @@ export default new Router({
     {
       path: "/injured-reserve",
       name: "injured-reserve",
+      component: InjuredReserve,
     },
     {
       path: "/injured-reserve/:playerId",
