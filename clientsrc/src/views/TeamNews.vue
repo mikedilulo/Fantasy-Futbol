@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "team-news-single"
+  name: "team-news"
 };
 </script>
 
