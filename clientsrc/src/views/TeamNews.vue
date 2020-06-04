@@ -1,5 +1,7 @@
 <template>
-  <div class="single-team-news"></div>
+  <div class="single-team-news">
+    <h1>This is the Team News Page</h1>
+  </div>
 </template>
 
 <script>
