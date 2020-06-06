@@ -18,6 +18,7 @@ import TeamNews from "../views/TeamNews.vue";
 import InjuredReserve from "../views/InjuredReserve.vue";
 // @ts-ignore
 import PlayerStats from "../views/PlayerStats.vue";
+// @ts-ignore
 import TopRankings from "../views/TopRankings.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
