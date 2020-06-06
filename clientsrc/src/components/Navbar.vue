@@ -38,6 +38,9 @@
         <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'contact-us' }" class="nav-link">Contact Us</router-link>
         </li>
+        <li class="nav-item ml-5" :class="{ active: $route.name == 'home' }">
+          <router-link :to="{ name: 'home' }" class="nav-link">Men's World Cup</router-link>
+        </li>
         <li
           class="nav-item"
           v-if="$auth.isAuthenticated"
