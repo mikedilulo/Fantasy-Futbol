@@ -53,6 +53,7 @@ export default new Router({
     {
       path: "/player-stats",
       name: "player-stats",
+      component: PlayerStats,
     },
     {
       path: "/player-stats/:playerId",
