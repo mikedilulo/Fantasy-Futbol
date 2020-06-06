@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div class="top-rankings"></div>
+</template>
 
 <script>
 export default {};
