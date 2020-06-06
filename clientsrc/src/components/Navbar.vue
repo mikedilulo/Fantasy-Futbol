@@ -14,34 +14,34 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item ml-5" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'top-rankings' }" class="nav-link">Top Rankings</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'player-stats' }" class="nav-link">Player Stats</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'injured-reserve' }" class="nav-link">Injured Reserve(IR)</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'team-news' }" class="nav-link">Team News</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'player-news' }" class="nav-link">Player News</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'app-demo' }" class="nav-link">App Demo</router-link>
         </li>
-        <li class="nav-item ml-4" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'contact-us' }" class="nav-link">Contact Us</router-link>
         </li>
-        <li class="nav-item ml-5" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Men's World Cup</router-link>
         </li>
-        <li class="nav-item ml-5" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Women's World Cup</router-link>
         </li>
         <li
