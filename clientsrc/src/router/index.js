@@ -16,6 +16,7 @@ import PlayerNews from "../views/PlayerNews.vue";
 import TeamNews from "../views/TeamNews.vue";
 // @ts-ignore
 import InjuredReserve from "../views/InjuredReserve.vue";
+// @ts-ignore
 import PlayerStats from "../views/PlayerStats.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
