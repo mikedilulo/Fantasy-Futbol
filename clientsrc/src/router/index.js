@@ -74,7 +74,6 @@ export default new Router({
       path: "/injured-reserve/:playerId",
       name: "injure-player",
     },
-    //TODO Need to import component and link path to link when clicked
     {
       path: "/team-news",
       name: "team-news",
