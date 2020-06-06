@@ -50,6 +50,7 @@ export default new Router({
     {
       path: "/top-rankings",
       name: "top-rankings",
+      component: TopRankings,
     },
     //TODO Need to import component and link path to link when clicked
     {
