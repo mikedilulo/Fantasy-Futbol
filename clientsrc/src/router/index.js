@@ -47,6 +47,7 @@ export default new Router({
       path: "*",
       redirect: "/",
     },
+    //* Below are the routes for the fantasy futbol application
     {
       path: "/top-rankings",
       name: "top-rankings",
