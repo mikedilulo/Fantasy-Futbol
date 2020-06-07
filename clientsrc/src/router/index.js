@@ -20,6 +20,7 @@ import InjuredReserve from "../views/InjuredReserve.vue";
 import PlayerStats from "../views/PlayerStats.vue";
 // @ts-ignore
 import TopRankings from "../views/TopRankings.vue";
+import MensWorldCup from "../views/MensWorldCup.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
