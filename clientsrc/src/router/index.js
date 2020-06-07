@@ -100,5 +100,10 @@ export default new Router({
       name: "contact-us",
       component: Contact,
     },
+    {
+      path: "/mens-world-cup",
+      name: "contact-us",
+      component: Contact,
+    },
   ],
 });
