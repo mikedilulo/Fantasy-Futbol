@@ -61,6 +61,7 @@ export default new Router({
       name: "player-stats",
       component: PlayerStats,
     },
+    //TODO Might need to change this as far as players go, to make it more generic instead of what is accessed on the first page. Unless I wanted to do something separate for players
     {
       path: "/player-stats/:playerId",
       name: "player",
