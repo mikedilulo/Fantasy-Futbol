@@ -21,7 +21,7 @@
           <router-link :to="{ name: 'top-rankings' }" class="nav-link">Rankings</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
-          <router-link :to="{ name: 'player-stats' }" class="nav-link">Player Stats</router-link>
+          <router-link :to="{ name: 'player-stats' }" class="nav-link">Stats</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'injured-reserve' }" class="nav-link">Injured Reserve(IR)</router-link>
