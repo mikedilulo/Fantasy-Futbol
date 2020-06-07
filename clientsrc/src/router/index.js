@@ -102,7 +102,7 @@ export default new Router({
     },
     {
       path: "/mens-world-cup",
-      name: "contact-us",
+      name: "world-cup-mens",
       component: Contact,
     },
   ],
