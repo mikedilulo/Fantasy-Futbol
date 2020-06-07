@@ -1,5 +1,7 @@
 <template>
-  <div class="mens-world-cup"></div>
+  <div class="mens-world-cup">
+    <h1>This is the Men's World Cup Page</h1>
+  </div>
 </template>
 
 <script>
