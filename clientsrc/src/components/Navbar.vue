@@ -20,7 +20,7 @@
         <li class="nav-item mr-1" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
         </li>
-        <li class="nav-item" :class="{ active: $route.name == 'home' }">
+        <li class="nav-item mr-1" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'top-rankings' }" class="nav-link">Rankings</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
