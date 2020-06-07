@@ -1,3 +1,5 @@
+    //TODO Need to format and adjust margins based off spacing requirements for the navbar
+
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <router-link class="navbar-brand" :to="{ name: 'home' }">Fantasy-Futbol</router-link>
@@ -12,9 +14,9 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        //TODO Need to format and adjust margins based off spacing requirements for the navbar
         <li class="nav-item mr-1" :class="{ active: $route.name == 'home' }">
           <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
         </li>
