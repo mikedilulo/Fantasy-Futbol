@@ -22,6 +22,7 @@ import PlayerStats from "../views/PlayerStats.vue";
 import TopRankings from "../views/TopRankings.vue";
 // @ts-ignore
 import MensWorldCup from "../views/MensWorldCup.vue";
+// @ts-ignore
 import WomensWorldCup from "../views/WomensWorldCup.vue";
 import { authGuard } from "@bcwdev/auth0-vue";
 
