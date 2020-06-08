@@ -1,5 +1,7 @@
 <template>
-  <div class="womens-world-cup"></div>
+  <div class="womens-world-cup">
+    <h1>This is the Women's World Cup Page!</h1>
+  </div>
 </template>
 
 <script>
