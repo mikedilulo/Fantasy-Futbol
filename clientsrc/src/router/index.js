@@ -106,6 +106,7 @@ export default new Router({
     },
     //TODO Need Path with :id for World Cup ID's to view the resuts and news of past WC's for mens and womens
     //TODO Need Path for Teams, so when you click on a team you can view its stats, etc
+    //TODO Need to do research on World Cup Dates for Both Mens and Womens
     {
       path: "/mens-world-cup",
       name: "world-cup-mens",
