@@ -114,7 +114,7 @@ export default new Router({
     {
       path: "/womens-world-cup",
       name: "world-cup-womens",
-      component: MensWorldCup,
+      component: WomensWorldCup,
     },
   ],
 });
