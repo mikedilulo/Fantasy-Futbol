@@ -113,7 +113,7 @@ export default new Router({
     },
     {
       path: "/womens-world-cup",
-      name: "world-cup-mens",
+      name: "world-cup-womens",
       component: MensWorldCup,
     },
   ],
