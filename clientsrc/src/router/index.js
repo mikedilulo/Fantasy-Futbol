@@ -52,7 +52,6 @@ export default new Router({
       redirect: "/",
     },
     //* Below are the routes for the fantasy futbol application
-    //TODO Need to create a world cup for both mens and womens as well in navbar link
     //TODO Need a World cup for mens and Womens based off years. so example would be womens-world-cup/:worldcupyearID
     {
       path: "/top-rankings",
