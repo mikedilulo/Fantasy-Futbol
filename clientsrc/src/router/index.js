@@ -52,7 +52,6 @@ export default new Router({
       redirect: "/",
     },
     //* Below are the routes for the fantasy futbol application
-    //TODO Need a World cup for mens and Womens based off years. so example would be womens-world-cup/:worldcupyearID
     {
       path: "/top-rankings",
       name: "top-rankings",
@@ -63,6 +62,7 @@ export default new Router({
       name: "player-stats",
       component: PlayerStats,
     },
+    //TODO Might need to change this as far as players go, to make it more generic instead of what is accessed on the first page. Unless I wanted to do something separate for players
     {
       path: "/player-stats/:playerId",
       name: "player",
