@@ -63,6 +63,8 @@ export default new Router({
       component: PlayerStats,
     },
     //TODO Might need to change this as far as players go, to make it more generic instead of what is accessed on the first page. Unless I wanted to do something separate for players
+    //TODO Need a fixtures (schedule) Link but that will be on the inside after authentication.
+
     {
       path: "/player-stats/:playerId",
       name: "player",
