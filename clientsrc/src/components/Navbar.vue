@@ -45,7 +45,7 @@
           <router-link :to="{ name: 'world-cup-mens' }" class="nav-link">Men's World Cup</router-link>
         </li>
         <li class="nav-item" :class="{ active: $route.name == 'home' }">
-          <router-link :to="{ name: 'home' }" class="nav-link">Women's World Cup</router-link>
+          <router-link :to="{ name: 'world-cup-womens' }" class="nav-link">Women's World Cup</router-link>
         </li>
         <li
           class="nav-item"
