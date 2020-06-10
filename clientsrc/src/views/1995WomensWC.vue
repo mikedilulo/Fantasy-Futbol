@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div class="1995-womens-world-cup"></div>
+</template>
 
 <script>
 export default {};
