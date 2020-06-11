@@ -8,6 +8,9 @@
   </div>
 </template>
 
+      //TODO Need to make sure that the years align going across not vertical
+      //TODO Need the router links for these to open up a new view when clicked on
+
 <script>
 export default {
   name: "womens-world-cup"
