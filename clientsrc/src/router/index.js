@@ -8,6 +8,8 @@ import Home from "../views/Home.vue";
 import Boards from "../views/Boards.vue";
 // @ts-ignore
 import Board from "../views/Board.vue";
+
+//* These are the views for the Home Page before login.
 // @ts-ignore
 import Contact from "../views/Contact.vue";
 // @ts-ignore
