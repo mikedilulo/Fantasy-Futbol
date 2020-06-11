@@ -2,6 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 // @ts-ignore
 import Home from "../views/Home.vue";
+
+//* These are the views for the template, need to go in and clean it up
 // @ts-ignore
 import Boards from "../views/Boards.vue";
 // @ts-ignore
