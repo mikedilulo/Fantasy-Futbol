@@ -3,7 +3,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "1995-womens-world-cup"
+};
 </script>
 
 <style>
