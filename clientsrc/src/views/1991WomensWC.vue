@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "womens-world-cup-1991"
+  name: "1991-womens-world-cup"
 };
 </script>
 
