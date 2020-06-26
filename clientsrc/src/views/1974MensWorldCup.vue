@@ -3,7 +3,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "1974-mens-world-cup"
+};
 </script>
 
 <style>
