@@ -1,5 +1,7 @@
 <template>
-  <div class="1986-mens-world-cup"></div>
+  <div class="1986-mens-world-cup">
+    <h1>This is the 1986 Mens WC Page</h1>
+  </div>
 </template>
 
 <script>
