@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div class="2002-mens-world-cup"></div>
+</template>
 
 <script>
 export default {};
