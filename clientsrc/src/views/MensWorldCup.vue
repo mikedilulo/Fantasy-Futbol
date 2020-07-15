@@ -2,7 +2,9 @@
   <div class="mens-world-cup">
     <h1>This is the Men's World Cup Page</h1>
     <div>
-      <h5>1930</h5>
+      <li class="nav-item" :class="{ active: $route.name == 'home' }">
+        <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+      </li>
       <h5>1934</h5>
       <h5>1938</h5>
       <h5>1950</h5>
