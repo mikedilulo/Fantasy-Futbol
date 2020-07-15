@@ -28,6 +28,8 @@ import TopRankings from "../views/TopRankings.vue";
 import MensWorldCup from "../views/MensWorldCup.vue";
 // @ts-ignore
 import WomensWorldCup from "../views/WomensWorldCup.vue";
+// @ts-ignore
+import MensWorldCup1930 from "../views/MensWorldCup1930";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
@@ -124,6 +126,11 @@ export default new Router({
       path: "/womens-world-cup",
       name: "world-cup-womens",
       component: WomensWorldCup,
+    },
+    {
+      path: "/mens-world-cup/1930",
+      name: "mens-world-cup-1930",
+      component: MensWorldCup1930,
     },
   ],
 });
