@@ -27,6 +27,12 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              1954
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
