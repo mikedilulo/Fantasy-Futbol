@@ -2,7 +2,6 @@
   <div class="mens-world-cup">
     <h1>This is the Men's World Cup Page</h1>
     <div>
-      <h5>1970</h5>
       <h5>1974</h5>
       <h5>1978</h5>
       <h5>1982</h5>
