@@ -1,5 +1,5 @@
 <template>
-  <div class="mens-world-cup-navbar">
+  <div class="womens-world-cup-navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
