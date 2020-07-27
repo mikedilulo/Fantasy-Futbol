@@ -1,7 +1,9 @@
 <template></template>
 
 <script>
-export default {};
+export default {
+  name: "womens-world-cup-navbar"
+};
 </script>
 
 <style>
