@@ -2,7 +2,6 @@
   <div class="womens-world-cup">
     <h1>This is the Women's World Cup Page!</h1>
     <div>
-      <h5>2003</h5>
       <h5>2007</h5>
       <h5>2011</h5>
       <h5>2015</h5>
