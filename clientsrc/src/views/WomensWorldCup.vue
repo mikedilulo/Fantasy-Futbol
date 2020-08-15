@@ -1,6 +1,6 @@
 <template>
   <div class="womens-world-cup">
-    <h1>This is the Women's World Cup Page!</h1>
+    <h1>This is the Women's World Cup Page!</h1>//TODO set up navbar for both mens and womens
     <div></div>
   </div>
 </template>
