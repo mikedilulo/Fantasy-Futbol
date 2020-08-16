@@ -68,7 +68,7 @@ import axios from "axios";
 
 let _api = axios.create({
   baseURL: "https://localhost:3000",
-  withCredentials: true
+  withCredentials: true,
 });
 export default {
   name: "Navbar",
@@ -82,8 +82,8 @@ export default {
     },
     async logout() {
       await this.$auth.logout({ returnTo: window.location.origin });
-    }
-  }
+    },
+  },
 };
 </script>
 

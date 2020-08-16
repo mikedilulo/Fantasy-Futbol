@@ -2,7 +2,8 @@
   <div class="mens-world-cup-navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        //TODO Ensure proper spacing between all of the years to center it out on the page
+        <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">
               1930
@@ -137,7 +138,7 @@
 
 <script>
 export default {
-  name: "mens-world-cup-navbar"
+  name: "mens-world-cup-navbar",
 };
 </script>
 
