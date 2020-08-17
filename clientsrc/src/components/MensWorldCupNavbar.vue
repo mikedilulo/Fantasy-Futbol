@@ -1,6 +1,5 @@
 <template>
   <div class="mens-world-cup-navbar">
-    //TODO Ensure proper spacing between all of the years to center it out on the page
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
