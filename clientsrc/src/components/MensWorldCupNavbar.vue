@@ -3,11 +3,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              1930
-              <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item mr-1 ml-4" :class="{ active: $route.name == 'home' }">
+            <router-link :to="{ name: 'mens-world-cup-1930' }" class="nav-link">1930</router-link>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">
