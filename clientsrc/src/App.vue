@@ -5,7 +5,6 @@
   </div>
 </template>
 
-//TODO Need to remove Navbar from App.vue and only have it on the main pages
 
 <script>
 import Navbar from "./components/Navbar";
