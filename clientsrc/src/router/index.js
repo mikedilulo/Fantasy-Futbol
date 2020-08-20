@@ -31,6 +31,7 @@ import WomensWorldCup from "../views/WomensWorldCup.vue";
 // @ts-ignore
 //* This starts the World Cup Years for Mens
 import MensWorldCup1930 from "../views/MensWorldCup1930";
+import MensWorldCup1934 from "../views/MensWorldCup1934";
 import { authGuard } from "@bcwdev/auth0-vue";
 
 Vue.use(Router);
