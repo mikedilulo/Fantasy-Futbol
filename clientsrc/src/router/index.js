@@ -142,7 +142,7 @@ export default new Router({
       component: MensWorldCup1934,
     },
     {
-      path: "/mens-world-cup/1934",
+      path: "/mens-world-cup/1938",
       name: "mens-world-cup-1934",
       component: MensWorldCup1934,
     },
