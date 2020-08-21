@@ -148,5 +148,10 @@ export default new Router({
       name: "mens-world-cup-1938",
       component: MensWorldCup1938,
     },
+    {
+      path: "/mens-world-cup/1938",
+      name: "mens-world-cup-1938",
+      component: MensWorldCup1938,
+    },
   ],
 });
