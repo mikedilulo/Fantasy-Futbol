@@ -155,5 +155,10 @@ export default new Router({
       name: "mens-world-cup-1950",
       component: MensWorldCup1950,
     },
+    {
+      path: "/mens-world-cup/1950",
+      name: "mens-world-cup-1950",
+      component: MensWorldCup1950,
+    },
   ],
 });
