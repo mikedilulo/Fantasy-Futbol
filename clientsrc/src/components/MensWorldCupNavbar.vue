@@ -1,5 +1,6 @@
 <template>
   <div class="mens-world-cup-navbar">
+    <!-- Dates for Mens and Womens Navbar - Needs to be in dropdown menu form -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
