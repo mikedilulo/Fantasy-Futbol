@@ -164,7 +164,7 @@ export default new Router({
     },
     {
       path: "/mens-world-cup/1958",
-      name: "mens-world-cup-1954",
+      name: "mens-world-cup-1958",
       component: MensWorldCup1954,
     },
   ],
