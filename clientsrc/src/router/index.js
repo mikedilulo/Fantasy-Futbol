@@ -43,6 +43,7 @@ import MensWorldCup1954 from "../views/MensWorldCup1954";
 import MensWorldCup1958 from "../views/MensWorldCup1958";
 // @ts-ignore
 import MensWorldCup1962 from "../views/MensWorldCup1962";
+// @ts-ignore
 import MensWorldCup1966 from "../views/MensWorldCup1966";
 import { authGuard } from "@bcwdev/auth0-vue";
 
