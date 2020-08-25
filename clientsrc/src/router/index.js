@@ -176,5 +176,10 @@ export default new Router({
       name: "mens-world-cup-1962",
       component: MensWorldCup1962,
     },
+    {
+      path: "/mens-world-cup/1962",
+      name: "mens-world-cup-1962",
+      component: MensWorldCup1962,
+    },
   ],
 });
