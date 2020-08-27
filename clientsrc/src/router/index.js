@@ -190,5 +190,10 @@ export default new Router({
       name: "mens-world-cup-1970",
       component: MensWorldCup1970,
     },
+    {
+      path: "/mens-world-cup/1970",
+      name: "mens-world-cup-1970",
+      component: MensWorldCup1970,
+    },
   ],
 });
