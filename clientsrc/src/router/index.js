@@ -250,5 +250,10 @@ export default new Router({
       name: "mens-world-cup-1978",
       component: MensWorldCup1978,
     },
+    {
+      path: "/mens-world-cup/1978",
+      name: "mens-world-cup-1978",
+      component: MensWorldCup1978,
+    },
   ],
 });
