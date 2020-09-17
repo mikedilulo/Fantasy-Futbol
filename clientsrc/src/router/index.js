@@ -52,6 +52,7 @@ import MensWorldCup1974 from "../views/MensWorldCup1974";
 // @ts-ignore
 import MensWorldCup1978 from "../views/MensWorldCup1978";
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
+import WomensWorldCup1991 from "../views/WomensWorldCup1991"
 
 import { authGuard } from "@bcwdev/auth0-vue";
 
