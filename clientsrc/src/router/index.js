@@ -269,9 +269,9 @@ export default new Router({
       component: WomensWorldCup1991,
     },
     {
-      path: "/womens-world-cup/1991",
-      name: "womens-world-cup-1991",
-      component: WomensWorldCup1991,
+      path: "/womens-world-cup/1995",
+      name: "womens-world-cup-1995",
+      component: WomensWorldCup1995,
     },
     {
       path: "/womens-world-cup/1991",
