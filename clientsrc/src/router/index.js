@@ -298,4 +298,9 @@ export default new Router({
       name: "womens-world-cup-2013",
       component: WomensWorldCup2013,
     },
+    {
+      path: "/womens-world-cup/2017",
+      name: "womens-world-cup-2017",
+      component: WomensWorldCup2017,
+    }
 });
