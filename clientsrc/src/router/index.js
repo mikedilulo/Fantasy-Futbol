@@ -51,8 +51,10 @@ import MensWorldCup1970 from "../views/MensWorldCup1970";
 import MensWorldCup1974 from "../views/MensWorldCup1974";
 // @ts-ignore
 import MensWorldCup1978 from "../views/MensWorldCup1978";
+// @ts-ignore
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
-import WomensWorldCup1991 from "../views/WomensWorldCup1991"
+// @ts-ignore
+import WomensWorldCup1995 from "../views/WomensWorldCup1995"
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
