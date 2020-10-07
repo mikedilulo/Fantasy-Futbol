@@ -61,7 +61,8 @@ import WomensWorldCup1999 from "../views/WomensWorldCup1999"
 import WomensWorldCup2003 from "../views/WomensWorldCup2003"
 // @ts-ignore
 import WomensWorldCup2007 from "../views/WomensWorldCup2007"
-import WomensWorldCup1991 from "../views/WomensWorldCup1991"
+// @ts-ignore
+import WomensWorldCup2011 from "../views/WomensWorldCup2011"
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
 import WomensWorldCup1991 from "../views/WomensWorldCup1991"
 
@@ -294,9 +295,9 @@ export default new Router({
       component: WomensWorldCup2007,
     },
     {
-      path: "/womens-world-cup/2009",
-      name: "womens-world-cup-2009",
-      component: WomensWorldCup2009,
+      path: "/womens-world-cup/2011",
+      name: "womens-world-cup-2011",
+      component: WomensWorldCup2011,
     },
     {
       path: "/womens-world-cup/2013",
