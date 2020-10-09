@@ -52,21 +52,21 @@ import MensWorldCup1974 from "../views/MensWorldCup1974";
 // @ts-ignore
 import MensWorldCup1978 from "../views/MensWorldCup1978";
 // @ts-ignore
-import WomensWorldCup1991 from "../views/WomensWorldCup1991"
+import WomensWorldCup1991 from "../views/WomensWorldCup1991";
 // @ts-ignore
-import WomensWorldCup1995 from "../views/WomensWorldCup1995"
+import WomensWorldCup1995 from "../views/WomensWorldCup1995";
 // @ts-ignore
-import WomensWorldCup1999 from "../views/WomensWorldCup1999"
+import WomensWorldCup1999 from "../views/WomensWorldCup1999";
 // @ts-ignore
-import WomensWorldCup2003 from "../views/WomensWorldCup2003"
+import WomensWorldCup2003 from "../views/WomensWorldCup2003";
 // @ts-ignore
-import WomensWorldCup2007 from "../views/WomensWorldCup2007"
+import WomensWorldCup2007 from "../views/WomensWorldCup2007";
 // @ts-ignore
-import WomensWorldCup2011 from "../views/WomensWorldCup2011"
+import WomensWorldCup2011 from "../views/WomensWorldCup2011";
 // @ts-ignore
-import WomensWorldCup2015 from "../views/WomensWorldCup2015"
+import WomensWorldCup2015 from "../views/WomensWorldCup2015";
 // @ts-ignore
-import WomensWorldCup2019 from "../views/WomensWorldCup2019"
+import WomensWorldCup2019 from "../views/WomensWorldCup2019";
 
 import { authGuard } from "@bcwdev/auth0-vue";
 
@@ -165,7 +165,7 @@ export default new Router({
       name: "world-cup-womens",
       component: WomensWorldCup,
     },
-    //* This is the routing for the Mens World Cup Years
+    // * This is the routing for the Mens World Cup Years
     {
       path: "/mens-world-cup/1930",
       name: "mens-world-cup-1930",
@@ -310,5 +310,6 @@ export default new Router({
       path: "/womens-world-cup/2019",
       name: "womens-world-cup-2019",
       component: WomensWorldCup2019,
-    }
+    },
+  ],
 });
