@@ -65,7 +65,8 @@ import WomensWorldCup2007 from "../views/WomensWorldCup2007"
 import WomensWorldCup2011 from "../views/WomensWorldCup2011"
 // @ts-ignore
 import WomensWorldCup2015 from "../views/WomensWorldCup2015"
-import WomensWorldCup1991 from "../views/WomensWorldCup1991"
+// @ts-ignore
+import WomensWorldCup2019 from "../views/WomensWorldCup2019"
 
 import { authGuard } from "@bcwdev/auth0-vue";
 
@@ -306,8 +307,8 @@ export default new Router({
       component: WomensWorldCup2015,
     },
     {
-      path: "/womens-world-cup/2017",
-      name: "womens-world-cup-2017",
-      component: WomensWorldCup2017,
+      path: "/womens-world-cup/2019",
+      name: "womens-world-cup-2019",
+      component: WomensWorldCup2019,
     }
 });
